@@ -14,7 +14,8 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
     private ImageButton onOff;
     private boolean isLight;
     private Camera camera ;
-	private int test;
+    private int test;
+	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
