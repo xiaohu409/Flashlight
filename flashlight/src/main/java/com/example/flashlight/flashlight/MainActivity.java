@@ -12,10 +12,9 @@ import android.widget.ImageButton;
 public class MainActivity extends ActionBarActivity implements View.OnClickListener{
 
     private ImageButton onOff;
-
     private boolean isLight;
-
     private Camera camera ;
+	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
